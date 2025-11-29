@@ -1,0 +1,193 @@
+<!-- ...existing code... -->
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Portofolio Arga</title>
+
+    <!-- fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700;800&family=Cinzel:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="judul">
+        <a href="#">Argott</a>
+      </div>
+
+      <div class="item">
+        <a href="#aboutMe">About me</a>
+        <a href="#skills">My skills</a>
+        <a href="#projects">My project</a>
+        <a href="#contact">Contact me</a>
+      </div>
+    </nav>
+
+    <main>
+      <!-- ABOUT -->
+      <section class="aboutMe" id="aboutMe">
+        <div class="about-text">
+          <h1>About me</h1>
+          <h2>Saya <span>Arga</span> Zanuar <span>Putra</span> Fajar</h2>
+
+          <p>
+            Pelajar yang kreatif dan selalu ingin belajar hal baru. Memiliki
+            ketertarikan pada pengembangan perangkat lunak dan web, serta terus
+            belajar untuk meningkatkan kemampuan di berbagai bahasa pemrograman.
+            Tujuan saya sederhana: menciptakan sesuatu yang bisa membantu orang
+            lain melalui teknologi. Berikut ada sertifikat pertama saya dari
+            dicoding.
+          </p>
+
+          <div class="download">
+            <a href="foto/sertifikat.jpg" download>Download sertifikat</a>
+          </div>
+        </div>
+
+        <div class="about-img" aria-hidden="true">
+          <img src="foto/arga.jpg" class="foto-profil" alt="foto arga" />
+          <div class="sertifikat-wrapper">
+            <img
+              src="foto/sertifikat.jpg"
+              class="sertifikat"
+              alt="sertifikat dicoding"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="skill-list">
+          <div class="skill">
+            <img src="foto/css-3.png" alt="CSS" /><span>CSS</span>
+          </div>
+          <div class="skill">
+            <img src="foto/html.png" alt="HTML" /><span>HTML</span>
+          </div>
+          <div class="skill">
+            <img src="foto/python.png" alt="Python" /><span>Python</span>
+          </div>
+          <div class="skill">
+            <img src="foto/typescript.png" alt="TypeScript" /><span
+              >TypeScript</span
+            >
+          </div>
+          <div class="skill">
+            <img src="foto/js.png" alt="JavaScript" /><span>JavaScript</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="projects">
+        <h2 class="section-title">Project</h2>
+
+        <div class="project-list">
+          <article class="project">
+            <div class="project-text">
+              <h3 class="project-title">
+                Website Profil Komunitas Remaja RT 3
+              </h3>
+              <p>
+                Saya membangun website ini menggunakan HTML dan CSS. Saya juga
+                mengoptimalkan agar bisa responsive antara desktop dan mobile,
+                serta menghosting website di GitHub.
+              </p>
+              <a
+                class="btn-outline"
+                href="https://argottzz.github.io/rremaja-rt3/"
+                >Lihat projek saya!</a
+              >
+            </div>
+
+            <div class="project-media">
+              <div class="project-img-wrap">
+                <img src="foto/rrt3.png" alt="Remaja RT3" />
+              </div>
+            </div>
+          </article>
+
+          <article class="project project-odd">
+            <div class="project-media">
+              <div class="project-img-wrap">
+                <img src="foto/baskara.jpg" alt="Hindia" />
+              </div>
+            </div>
+
+            <div class="project-text">
+              <h3 class="project-title">Website Biodata Baskara Putra</h3>
+              <p>
+                Saya membangun website ini menggunakan HTML dan CSS.
+                Mengoptimalkan agar responsive antara desktop dan mobile. Ini
+                proyek pertama saya.
+              </p>
+              <a
+                class="btn-outline"
+                href="https://argottzz.github.io/baskara-putra/"
+                >Lihat projek saya!</a
+              >
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="contact-section">
+        <div class="contact-card">
+          <h2 class="contact-title">Contact me</h2>
+
+          <div class="contact-grid">
+            <form class="contact-form" action="#" method="post">
+              <input type="text" name="nama" placeholder="Nama..." required />
+              <input
+                type="email"
+                name="email"
+                placeholder="E-mail..."
+                required
+              />
+              <textarea name="pesan" placeholder="Pesan..." required></textarea>
+              <button type="submit" class="btn-send">Kirim</button>
+            </form>
+
+            <div class="contact-illustration" aria-hidden="true">
+              <img src="foto/data-storage-3-37.png" alt="illustration" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <span>© 2025 Made by Arga</span>
+        <div class="socials">
+          <a
+            href="https://github.com/argottzz"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+          >
+            <img src="foto/github.png" alt="github" />
+          </a>
+          <a
+            href="https://www.instagram.com/kingarggoat?igsh=OXhxOThqc2JyODF0"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+          >
+            <img src="foto/instagram.png" alt="instagram" />
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+<!-- ...existing code... -->
