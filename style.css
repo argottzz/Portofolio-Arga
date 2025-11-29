@@ -541,23 +541,27 @@ footer p {
   .project-item {
     flex-direction: column;
     text-align: center;
-    gap: 20px;
   }
 
   .project-item:nth-child(2) {
     flex-direction: column;
   }
 
+  .project-item .text1, 
+  .project-item .text2 {
+    text-align: center; 
+  }
+
   .project-item .image .photo,
   .project-item .image-rt3 .photo {
-    width: 100%;
+    width: 90%;
     height: auto;
-    margin: 0;
+    margin: 20px 0;
   }
 
   .project-item .text1 a,
   .project-item .text2 a {
-    margin-top: 30px;
+    margin-top: 40px;
   }
 
   /* CONTACT */
