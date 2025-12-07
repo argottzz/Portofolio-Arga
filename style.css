@@ -461,7 +461,6 @@ footer p {
 
 @media (max-width: 768px) {
 
-  /* NAVBAR */
   nav {
     flex-direction: column;
     padding: 1rem;
@@ -474,7 +473,6 @@ footer p {
     justify-content: center;
   }
 
-  /* ABOUT ME */
   .aboutMe {
     flex-direction: column;
     margin: 0;
@@ -504,7 +502,6 @@ footer p {
     margin-top: 30px;
   }
 
-  /* SKILLS */
   .mySkill {
     padding: 40px 20px;
   }
@@ -523,7 +520,6 @@ footer p {
     height: 75px;
   }
 
-  /* PROJECT */
   .projects-container {
     padding: 20px;
   }
@@ -560,7 +556,6 @@ footer p {
     margin-top: 40px;
   }
 
-  /* CONTACT */
   .contactMe-content {
     flex-direction: column;
     gap: 30px;
@@ -575,7 +570,6 @@ footer p {
     margin: 0;
   }
 
-  /* FOOTER */
   footer {
     flex-direction: column;
     gap: 15px;
