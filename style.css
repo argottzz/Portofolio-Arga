@@ -120,10 +120,10 @@ main {
   font-size: 16px;
   background: #0059b9;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+   transition: 0.2s
 }
 
 .aboutMe a:hover {
-  transform: translateY(-3px);
   background: #0a2647;
 }
 
@@ -272,15 +272,15 @@ main {
   font-family: sans-serif;
   border-radius: 12px;
   padding: 8px 14px;
-  margin-top: 150px;
+  margin-top: 115px;
   text-decoration: none;
   font-size: 16px;
   background: #0059b9;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+   transition: 0.2s
 }
 
 .project-item .text1 a:hover {
-  transform: translateY(-3px);
   background: #0a2647;
 }
 
@@ -335,6 +335,7 @@ main {
   font-size: 16px;
   background: #0059b9;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+   transition: 0.2s
 }
 
 .project-item .text2 a:hover {
@@ -450,6 +451,7 @@ footer p {
   text-decoration: none;
   color: #fff;
   margin-right: 20px;
+   transition: 0.2s
 }
 
 .link a:hover {
