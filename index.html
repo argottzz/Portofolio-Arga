@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
 
+    <!-- ini font comic -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap"
+      rel="stylesheet"
+    /> -->
+
     <!-- ini font Patrick Hand -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -147,13 +155,13 @@
   <div class="contactMe-card">
     <h1 class="h1-contact">Contact me</h1>
     <div class="contactMe-content">
-      <form action="https://formspree.io/f/xeowwwwk" method="POST" class="contactMe-form">
-        <input type="text" id="nama" placeholder="Nama..." required>
-        <input type="email" id="email" placeholder="Email..." required>
-        <textarea id="pesan" placeholder="Pesan..." required></textarea>
-        <button type="submit" id="sub">Kirim</button>
-      </form>
-      <img src="assets/designer-1-78.png" class="contactMe-img">
+     <form action="https://formspree.io/f/xeowwwwk" method="POST" class="contactMe-form">
+       <input type="text" id="nama" name="nama" placeholder="Nama..." required>
+       <input type="email" id="email" name="email" placeholder="Email..." required>
+       <textarea id="message" name="message" placeholder="Pesan..." required></textarea>
+       <button type="submit" id="sub">Kirim</button>
+       </form>
+     <img src="assets/designer-1-78.png" class="contactMe-img">
     </div>
   </div>
 </div>
@@ -176,8 +184,8 @@
       setTimeout(() => {
         document.getElementById("nama").value = "";
         document.getElementById("email").value = "";
-        document.getElementById("pesan").value = "";
-      });
+        document.getElementById("message").value = "";
+      }, 500);
     });
     </script>
   </body>
